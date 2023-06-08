@@ -52,7 +52,7 @@ function parseName() {
 function getName(gender, vibe, stage) {
 	console.log(`(${gender},${vibe},${stage})`);
 	var suffix = '';
-	if(stage == 'parent') suffix = 'ar';
+	if(stage == 'parent') suffix = 'an';
 	if(stage == 'child') return [getRandom(this['P6']), 'in', stage];
 
 	if(gender == 'sky') return [getRandom(this['P5']), 'ezh'+suffix, `(${gender},${stage})`];
