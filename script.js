@@ -20,9 +20,9 @@
 //beginning of function
 function parseName() { 
   //pull checked elements
-  let gender = Array.from(document.querySelectorAll(".gender input")).filter(x => x.checked).map(x => x.value);
-  let vibe = Array.from(document.querySelectorAll(".vibe input")).filter(x => x.checked).map(x => x.value);
-  let stage = Array.from(document.querySelectorAll(".stage input")).filter(x => x.checked).map(x => x.value);
+  let gender = Array.from(document.GetElementsByName("gender")).filter(x => x.checked).map(x => x.value);
+  let vibe = Array.from(document.GetElementsByName("vibe")).filter(x => x.checked).map(x => x.value);
+  let stage = Array.from(document.GetElementsByName("stage")).filter(x => x.checked).map(x => x.value);
 	
   var text = document.getElementById("results");
 
