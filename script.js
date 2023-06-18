@@ -1,6 +1,4 @@
-//TO DO: check adult function; pair gender first & last; track fluid
 //name lists
-
 {
 	this['P1'] = ["Aäna", "Aänis", "Aätha", "Aäthis", "Adreä", "Adreïs", "Aia", "Aiïs", "Ailana", "Ailanis", "Aina", "Ainis", "Aisava", "Aisavis", "Aishara", "Aisharis", "Aiva", "Aivis", "Aivara", "Aivaris", "Aizheä", "Aizheïs", "Aizheva", "Aizhevis", "Alasha", "Alashis", "Alchena", "Alchenis", "Ama", "Amis", "Amala", "Amalis", "Amira", "Amiris", "Anasa", "Anasis", "Anmura", "Anmuris", "Anora", "Anoris", "Anvina", "Anvinis", "Anzheva", "Anzhevis", "Ara", "Aris", "Arbela", "Arbelis", "Armeda", "Armedis", "Arva", "Arvis", "Arveneä", "Arveneïs", "Asava", "Asavis", "Asha", "Ashis", "Ashedra", "Ashedris", "Atha", "Athis", "Athama", "Athamis", "Athra", "Athris", "Attera", "Atteris", "Aveia", "Aveiïs", "Avra", "Avris", "Balara", "Balaris", "Bara", "Baris", "Basheva", "Bashevis", "Bela", "Belis", "Bera", "Beris", "Berena", "Berenis", "Borava", "Boravis", "Brenara", "Brenaris", "Broma", "Bromis", "Brosa", "Brosis", "Bucara", "Bucaris", "Caia", "Caiïs", "Cairada", "Cairadis", "Cala", "Calis", "Calestha", "Calesthis", "Camila", "Camilis", "Carcethlena", "Carcethlenis", "Cava", "Cavis", "Cebra", "Cebris", "Ceilia", "Ceiliïs", "Celeha", "Celehis", "Cenetha", "Cenethis", "Cereda", "Ceredis", "Cetha", "Cethis", "Cethora", "Cethoris", "Chadeva", "Chadevis", "Chava", "Chavis", "Chenela", "Chenelis", "Chohara", "Choharis", "Chola", "Cholis", "Cira", "Ciris", "Clema", "Clemis", "Clunetha", "Clunethis", "Cora", "Coris", "Coreda", "Coredis", "Corivera", "Coriveris", "Corva", "Corvis", "Crethena", "Crethenis", "Croä", "Croïs", "Csaiva", "Csaivis", "Csana", "Csanis", "Csatha", "Csathis", "Cseda", "Csedis", "Csenaia", "Csenaiïs", "Csethira", "Csethiris", "Cseva", "Csevis", "Csora", "Csoris", "Csova", "Csovis", "Cstheia", "Cstheiïs", "Curna", "Curnis", "Daia", "Daiïs", "Daiana", "Daianis", "Dala", "Dalis", "Dalera", "Daleris", "Danava", "Danavis", "Daniva", "Danivis", "Davara", "Davaris", "Davela", "Davelis", "Dazha", "Dazhis", "Deia", "Deiïs", "Deneva", "Denevis", "Dera", "Deris", "Desheha", "Deshehis", "Dina", "Dinis", "Dora", "Doris", "Dorasha", "Dorashis", "Ebrema", "Ebremis", "Ebreneä", "Ebreneïs", "Echa", "Echis", "Echana", "Echanis", "Echela", "Echelis", "Echira", "Echiris", "Edila", "Edilis", "Edira", "Ediris", "Edona", "Edonis", "Edonoma", "Edonomis", "Eira", "Eiris", "Eiva", "Eivis", "Elandra", "Elandris", "Ema", "Emis", "Erima", "Erimis", "Erthala", "Erthalis", "Emerezha", "Emerezhis", "Esa", "Esis", "Esara", "Esaris", "Esha", "Eshis", "Esheva", "Eshevis", "Esmeä", "Esmeïs", "Esra", "Esris", "Eva", "Evis", "Evra", "Evris", "Evrena", "Evrenis", "Evresa", "Evresis", "Ezha", "Ezhis", "Ezhera", "Ezheris", "Hala", "Halis", "Haneva", "Hanevis", "Hara", "Haris", "Hasthema", "Hasthemis", "Hasiva", "Hasivis", "Hatha", "Hathis", "Hera", "Heris", "Hesera", "Heseris", "Hesthena", "Hesthenis", "Hiria", "Hiriïs", "Horthena", "Horthenis", "Iäna", "Iänis", "Idra", "Idris", "Ima", "Imis", "Ina", "Inis", "Inshira", "Inshiris", "Inva", "Invis", "Isheia", "Isheiïs", "Ishila", "Ishilis", "Ishora", "Ishoris", "Isthana", "Isthanis", "Isreä", "Isreïs", "Ivira", "Iviris", "Keia", "Keiïs", "Keila", "Keilis", "Kelmara", "Kelmaris", "Kera", "Keris", "Keva", "Kevis", "Kevera", "Keveris", "Kheva", "Khevis", "Kivora", "Kivoris", "Lala", "Lalis", "Lantheva", "Lanthevis", "Lathira", "Lathiris", "Leia", "Leiïs", "Lena", "Lenis", "Lesha", "Leshis", "Lisava", "Lisavis", "Lisetha", "Lisethis", "Livana", "Livanis", "Lohaisa", "Lohaisis", "Lora", "Loris", "Maia", "Maiïs", "Maliva", "Malivis", "Mandara", "Mandaris", "Mara", "Maris", "Meda", "Medis", "Meletha", "Melethis", "Melnara", "Melnaris", "Mevizha", "Mevizhis", "Mireä", "Mireïs", "Molina", "Molinis", "Nadaä", "Nadaïs", "Nadara", "Nadaris", "Nadeä", "Nadeïs", "Naida", "Naidis", "Nanava", "Nanavis", "Narchana", "Narchanis", "Nazhcreä", "Nazhcreïs", "Nazhira", "Nazhiris", "Nechema", "Nechemis", "Nebena", "Nebenis", "Nedaä", "Nedaïs", "Nela", "Nelis", "Nelozha", "Nelozhis", "Nema", "Nemis", "Nemera", "Nemeris", "Nemola", "Nemolis", "Nepeva", "Nepevis", "Nemria", "Nemriïs", "Nera", "Neris", "Nereia", "Nereiïs", "Neshira", "Neshiris", "Nethena", "Nethenis", "Nevenna", "Nevennis", "Nileä", "Nileïs", "Nureva", "Nurevis", "Odra", "Odris", "Olcheva", "Olchevis", "Olvara", "Olvaris", "Omda", "Omdis", "Orava", "Oravis", "Orchena", "Orchenis", "Orcheveä", "Orcheveïs", "Orima", "Orimis", "Orimeä", "Orimeïs", "Ormeva", "Ormevis", "Orseva", "Orsevis", "Orsha", "Orshis", "Orthema", "Orthemis", "Oseia", "Oseiïs", "Oseva", "Osevis", "Osha", "Oshis", "Osreia", "Osreiïs", "Othora", "Othoris", "Ozha", "Ozhis", "Panezha", "Panezhis", "Para", "Paris", "Parmena", "Parmenis", "Pavala", "Pavalis", "Pazhira", "Pazhiris", "Pela", "Pelis", "Pelara", "Pelaris", "Pelchara", "Pelcharis", "Penchara", "Pencharis", "Pera", "Peris", "Perencha", "Perenchis", "Permena", "Permenis", "Pevenna", "Pevennis", "Polchina", "Polchinis", "Pushvarna", "Pushvarnis", "Raia", "Raiïs", "Radeä", "Radeïs", "Reneia", "Reneiïs", "Reshema", "Reshemis", "Revana", "Revanis", "Rohetha", "Rohethis", "Roshara", "Rosharis", "Rosira", "Rosiris", "Satha", "Sathis", "Salezheia", "Salezheiïs", "Sanara", "Sanaris", "Segeva", "Segevis", "Sehala", "Sehalis", "Sela", "Selis", "Selena", "Selenis", "Seltheva", "Selthevis", "Sethera", "Setheris", "Sevesa", "Sevesis", "Sevezha", "Sevezhis", "Sevrasecha", "Sevrasechis", "Shaleä", "Shaleïs", "Sheveä", "Sheveïs", "Shuletha", "Shulethis", "Shuliha", "Shulihis", "Shaia", "Shaiïs", "Sira", "Siris", "Solicha", "Solichis", "Soliva", "Solivis", "Soluna", "Solunis", "Soneva", "Sonevis", "Sorcha", "Sorchis", "Sovira", "Soviris", "Stana", "Stanis", "Sukela", "Sukelis", "Sula", "Sulis", "Sura", "Suris", "Taia", "Taiïs", "Tala", "Talis", "Tama", "Tamis", "Tana", "Tanis", "Tanata", "Tanatis", "Tanthia", "Tanthiïs", "Tanzheia", "Tanzheiïs", "Tatia", "Tatiïs", "Teia", "Teiïs", "Tedora", "Tedoris", "Telima", "Telimis", "Tema", "Temis", "Tera", "Teris", "Teta", "Tetis", "Tetha", "Tethis", "Tethima", "Tethimis", "Thara", "Tharis", "Thelema", "Thelemis", "Theva", "Thevis", "Thiria", "Thiriïs", "Thora", "Thoris", "Thorama", "Thoramis", "Thuvena", "Thuvenis", "Toïna", "Toïnis", "Tomila", "Tomilis", "Toreä", "Toreïs", "Tura", "Turis", "Ubezha", "Ubezhis", "Ula", "Ulis", "Ulana", "Ulanis", "Ulera", "Uleris", "Ulevia", "Uleviïs", "Ulsheä", "Ulsheïs", "Ulthora", "Ulthoris", "Ulzhava", "Ulzhavis", "Ursa", "Ursis", "Usharsa", "Usharsis", "Ushena", "Ushenis", "Uvezha", "Uvezhis", "Vala", "Valis", "Valestha", "Valesthis", "Valmata", "Valmatis", "Valna", "Valnis", "Valta", "Valtis", "Vana", "Vanis", "Vecha", "Vechis", "Vechela", "Vechelis", "Vedera", "Vederis", "Vela", "Velis", "Velhira", "Velhiris", "Velisa", "Velisis", "Vera", "Veris", "Verela", "Verelis", "Veremna", "Veremnis", "Vescha", "Veschis", "Vesena", "Vesenis", "Vetha", "Vethis", "Vinsa", "Vinsis", "Vinvedra", "Vinvedris", "Virena", "Virenis", "Vobora", "Voboris", "Vodreä", "Vodreïs", "Vonia", "Voniïs", "Vorenzhessa", "Vorenzhessis", "Vorzha", "Vorzhis", "Zhaä", "Zhaïs", "Zhara", "Zharis", "Zhavana", "Zhavanis", "Zheimela", "Zheimelis", "Zhelsa", "Zhelsis", "Zhemena", "Zhemenis", "Zherina", "Zherinis", "Zhorna", "Zhornis", "Zinia", "Ziniïs", "Aänu", "Aäthu", "Adreü", "Aiu", "Ailanu", "Ainu", "Aisavu", "Aisharu", "Aivu", "Aivaru", "Aizheü", "Aizhevu", "Alashu", "Alchenu", "Amu", "Amalu", "Amiru", "Anasu", "Anmuru", "Anoru", "Anvinu", "Anzhevu", "Aru", "Arbelu", "Armedu", "Arvu", "Arveneü", "Asavu", "Ashu", "Ashedru", "Athu", "Athamu", "Athru", "Atteru", "Aveiu", "Avru", "Balaru", "Baru", "Bashevu", "Belu", "Beru", "Berenu", "Boravu", "Brenaru", "Bromu", "Brosu", "Bucaru", "Caiu", "Cairadu", "Calu", "Calesthu", "Camilu", "Carcethlenu", "Cavu", "Cebru", "Ceiliü", "Cehelu", "Cenethu", "Ceredu", "Cethu", "Cethoru", "Chadevu", "Chavu", "Chenelu", "Choharu", "Cholu", "Ciru", "Clemu", "Clunethu", "Coru", "Coredu", "Coriveru", "Corvu", "Crethenu", "Croü", "Csaivu", "Csanu", "Csathu", "Csedu", "Csenaiu", "Csethiru", "Csevu", "Csoru", "Csovu", "Cstheiü", "Curnu", "Daiu", "Daianu", "Dalu", "Daleru", "Danavu", "Danivu", "Davaru", "Davelu", "Dazhu", "Deiu", "Denevu", "Deru", "Deshehu", "Dinu", "Doru", "Dorashu", "Ebremu", "Ebreneü", "Echu", "Echanu", "Echelu", "Echiru", "Edilu", "Ediru", "Edonu", "Edonomu", "Eiru", "Eivu", "Elandru", "Emu", "Erimu", "Erthalu", "Emerezhu", "Esu", "Esaru", "Eshu", "Eshevu", "Esmeü", "Esru", "Evu", "Evru", "Evrenu", "Evresu", "Ezhu", "Ezheru", "Halu", "Hanevu", "Haru", "Hasthemu", "Hasivu", "Hathu", "Heru", "Heseru", "Hesthenu", "Hiriu", "Horthenu", "Iänu", "Idru", "Imu", "Inu", "Inshiru", "Invu", "Isheiu", "Ishilu", "Ishoru", "Isthanu", "Isreü", "Iviru", "Keiu", "Keilu", "Kelmaru", "Keru", "Kevu", "Keveru", "Khevu", "Kivoru", "Lalu", "Lanthevu", "Lathiru", "Leiu", "Lenu", "Leshu", "Lisavu", "Lisethu", "Livanu", "Lohaisu", "Loru", "Maiu", "Malivu", "Mandaru", "Maru", "Medu", "Melethu", "Melnaru", "Mevizhu", "Mireü", "Molinu", "Nadaü", "Nadaru", "Nadeü", "Naidu", "Nanavu", "Narchanu", "Nazhcreü", "Nazhiru", "Nechemu", "Nebenu", "Nedaü", "Nelu", "Nelozhu", "Nemu", "Nemeru", "Nemolu", "Nepevu", "Nemriu", "Neru", "Nereiu", "Neshiru", "Nethenu", "Nevennu", "Nileü", "Nurevu", "Odru", "Olchevu", "Olvaru", "Omdu", "Oravu", "Orchenu", "Orcheveü", "Orimu", "Orimeü", "Ormevu", "Orsevu", "Orshu", "Orthemu", "Oseiu", "Osevu", "Oshu", "Osreiu", "Othoru", "Ozhu", "Panezhu", "Paru", "Parmenu", "Pavalu", "Pazhiru", "Pelu", "Pelaru", "Pelcharu", "Pencharu", "Peru", "Perenchu", "Permenu", "Pevennu", "Polchinu", "Pushvarnu", "Raiu", "Radeü", "Reneiu", "Reshemu", "Revanu", "Rohethu", "Rosharu", "Rosiru", "Sathu", "Salezheiu", "Sanaru", "Segevu", "Sehalu", "Selu", "Selenu", "Selthevu", "Setheru", "Sevesu", "Sevezhu", "Sevrasechu", "Shaleü", "Sheveü", "Shulethu", "Shulihu", "Shaiu", "Siru", "Solichu", "Solivu", "Solunu", "Sonevu", "Sorchu", "Soviru", "Stanu", "Sukelu", "Sulu", "Suru", "Taiu", "Talu", "Tamu", "Tanu", "Tanatu", "Tanthiu", "Tanzheiu", "Tatiu", "Teiu", "Tedoru", "Telimu", "Temu", "Teru", "Tetu", "Tethu", "Tethimu", "Tharu", "Thelemu", "Thevu", "Thiriu", "Thoru", "Thoramu", "Thuvenu", "Toïnu", "Tomilu", "Toreü", "Turu", "Ubezhu", "Ulu", "Ulanu", "Uleru", "Uleviu", "Ulsheü", "Ulthoru", "Ulzhavu", "Ursu", "Usharsu", "Ushenu", "Uvezhu", "Valu", "Valesthu", "Valmatu", "Valnu", "Valtu", "Vanu", "Vechu", "Vechelu", "Vederu", "Velu", "Velhiru", "Velisu", "Veru", "Verelu", "Veremnu", "Veschu", "Vesenu", "Vethu", "Vinsu", "Vinvedru", "Virenu", "Voboru", "Vodreü", "Voniu", "Vorenzhessu", "Vorzhu", "Zhaü", "Zharu", "Zhavanu", "Zheimelu", "Zhelsu", "Zhemenu", "Zherinu", "Zhornu", "Ziniu"];
 	
@@ -17,34 +15,28 @@
 	this['F1'] = ["Aichen", "Aisav", "Aivon", "Alchen", "Anshon", "Anzhah", "Atter", "Aval", "Avelon", "Azhan", "Baizhah", "Balam", "Balved", "Bazhev", "Bechev", "Beren", "Beron", "Bershan", "Beshel", "Bralchen", "Bralish", "Branav", "Bren", "Brenen", "Brom", "Brulnem", "Caltav", "Cambesh", "Carlin", "Celeh", "Cered", "Cever", "Chadev", "Chav", "Chinev", "Choven", "Clenver", "Clesten", "Coral", "Coresh", "Cremor", "Csatham", "Cseniv", "Csov", "Culain", "Daibroh", "Dal", "Daniv", "Dathench", "Daven", "Delem", "Devath", "Dorash", "Doren", "Dovin", "Drachan", "Draven", "Drazh", "Duchen", "Duhal", "Elam", "Elith", "Elor", "Erim", "Erlen", "Estor", "Ethir", "Evan", "Galin", "Gavin", "Ganath", "Goron", "Griv", "Habrob", "Halezh", "Halvern", "Hel", "Hestam", "Holith", "Holvath", "Husav", "Im", "Iriv", "Ishil", "Isthan", "Land", "Lanthev", "Lethorm", "Lever", "Lisav", "Luman", "Masav", "Matan", "Mend", "Mel", "Michez", "Monm", "Mulin", "Nad", "Narchan", "Nathom", "Nel", "Nesth", "Nethen", "Nochen", "Olchev", "Oleth", "Orbel", "Orim", "Ormev", "Orsev", "Orshev", "Orthem", "Osm", "Orzhim", "Parmor", "Parzhad", "Pashav", "Pel", "Pelov", "Pelvin", "Perchenz", "Persh", "Pevenn", "Ponich", "Prenev", "Rasab", "Rasalt", "Reclav", "Renthal", "Roheth", "Rozhem", "Sel", "Seves", "Shels", "Sherz", "Sheveld", "Sosav", "Talen", "Tarav", "Tativ", "Taval", "Tel", "Telon", "Tem", "Tesav", "Tethim", "Thilmer", "Thorchel", "Thuriz", "Tolinb", "Tomas", "Tozharh", "Trivon", "Ubezh", "Ulzhav", "Umen", "Urmen", "Vach", "Vel", "Veltan", "Velver", "Vernez", "Vesch", "Vicen", "Vidr", "Viren", "Zan", "Zanar", "Zhav", "Zherin", "Zholsen"];
 }
 
-//beginning of function
 function parseName() { 
   //pull checked elements
-  let gender = Array.from(document.querySelectorAll(".gender input")).filter(x => x.checked).map(x => x.value);
-  let vibe = Array.from(document.querySelectorAll(".vibe input")).filter(x => x.checked).map(x => x.value);
-  let stage = Array.from(document.querySelectorAll(".stage input")).filter(x => x.checked).map(x => x.value);
+	let gender = Array.from(document.getElementsByName("gender")).filter(x => x.checked).map(x => x.value);
+	let vibe = Array.from(document.getElementsByName("vibe")).filter(x => x.checked).map(x => x.value);
+	let stage = Array.from(document.getElementsByName("stage")).filter(x => x.checked).map(x => x.value);
 	
-  var text = document.getElementById("results");
-
-	
-	if(!stage.includes("child") && (gender.length === 0 || vibe.length === 0 || stage.length === 0)) {
-		console.log('error!');
-		text.style.display = "block";
-		text.innerHTML = 'Please select an option for each category!';
-		return;
+	let results = document.getElementById("results");
+//treat none checked as all checked
+	if(!stage.includes('child')) {
+		if(gender.length === 0) gender = ['mountain', 'forest', 'sky'];
+		if(vibe.length === 0) vibe = ['femme', 'masc', 'fluid'];
+		if(stage.length === 0) stage = ['adult', 'parent'];
 	}
-      
-  var keyFirst = []; var keyLast = [];
 	
 	console.log(gender+'; '+vibe+'; '+stage);
 	
-	text.style.display = "block";
-	text.innerHTML = '';
+	results.style.display = "block";
+	results.innerHTML = '';
 	for(var i = 0; i < 5; i++) {
 		//name = [firstname, suffix, explanation]
 		var name = getName(getRandom(gender), getRandom(vibe), getRandom(stage));
-		console.log(name[2]);
-		text.innerHTML += name[0]+' '+getRandom(this['F1'])+name[1]+' '+name[2]+'<br>';
+		results.innerHTML += name[0]+' '+getRandom(this['F1'])+name[1]+' '+name[2]+'<br>';
 	}
 	
 } //end function
@@ -53,7 +45,7 @@ function getName(gender, vibe, stage) {
 	console.log(`(${gender},${vibe},${stage})`);
 	var suffix = '';
 	if(stage == 'parent') suffix = 'an';
-	if(stage == 'child') return [getRandom(this['P6']), 'in', stage];
+	if(stage == 'child') return [getRandom(this['P6']), 'in', '(child)'];
 
 	if(gender == 'sky') return [getRandom(this['P5']), 'ezh'+suffix, `(${gender},${stage})`];
 
@@ -74,16 +66,17 @@ function getName(gender, vibe, stage) {
 
 function getFluid(gender, suffix, random) {
 	switch(random) {
+		//masc name with femme suffix
 		case 0:
 			if(gender == 'mountain') return [getRandom(this['P1']), 'el'+suffix, `(${gender} fluid)`];
 			if(gender == 'forest') return [getRandom(this['P3']), 'el'+suffix, `(${gender} fluid)`];
 			break;
-			
+		//femme name with masc suffix
 		case 1:
 			if(gender == 'mountain') return [getRandom(this['P2']), 'ar'+suffix, `(${gender} fluid)`];
 			if(gender == 'forest') return [getRandom(this['P4']), 'ar'+suffix, `(${gender} fluid)`];
 			break;
-			
+		//any name with ezh suffix
 		case 2:
 			if(gender == 'mountain') return [getRandom(this['P1'].concat(this['P2'])), 'ezh'+suffix, `(${gender} fluid)`];
 			if(gender == 'forest') return [getRandom(this['P3'].concat(this['P4'])), 'ezh'+suffix, `(${gender} fluid)`];
