@@ -23,31 +23,35 @@ main {
 }
 
 .column {
-	display: inline-block;
-	width: 150px;
+	flex-grow: 1;
+	min-width: 100px;
+	max-width: 200px;
 	border: 2px solid black;
-	padding: 0 0 15px 15px;
+	padding: 0 15px 15px 15px;
 	margin: 10px;
 	background-color: white;
 }
 
-.column h3{
+.column h3 {
 	text-align: center;
 }
 
 .generate {
-	width: 450px;
 	text-align: center;
 	padding: 5px;
 }
 
 .output {
+	display: inline-flex;
+	justify-content: center;
 	width: 350px;
-	position: relative;
-	left: 45px;
 	background-color: lightgrey;
 	border: 2px solid black;
 	margin-top: 25px;
+}
+
+article {
+	margin-top: 40px;
 }
 
 footer {
