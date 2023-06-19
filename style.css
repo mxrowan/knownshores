@@ -22,7 +22,6 @@ section {
 }
 
 .column {
-	flex-grow: 1;
 	width: 150px;
 	border: 2px solid black;
 	padding: 0 0 15px 15px;
