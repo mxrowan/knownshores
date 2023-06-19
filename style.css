@@ -8,7 +8,6 @@ body {
 }
 
 main {
-	width: 500px;
 	margin: 0 auto;
 }
 
@@ -16,11 +15,17 @@ section {
 	margin-left: 25px;
 }
 
+.row {
+	width: 500;
+	display: flex;
+	justify-content: space-around;
+
 .column {
-	display: inline-block;
-	width: 150px;
+	flex-grow: 1;
+	min-width: 100px;
+	max-width: 200px;
 	border: 2px solid black;
-	padding: 5px;
+	padding: 0 0 15px 15px;
 	margin-bottom: 10px;
 	background-color: white;
 }
@@ -30,15 +35,14 @@ section {
 }
 
 .generate {
-	width: 450px;
 	text-align: center;
 	padding: 5px;
 }
 
 .output {
+	display: inline-flex;
+	justify-content: center;
 	width: 350px;
-	position: relative;
-	left: 45px;
 	background-color: lightgrey;
 	border: 2px solid black;
 	margin-top: 25px;
