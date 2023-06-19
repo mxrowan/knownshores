@@ -50,6 +50,10 @@ main {
 	margin-top: 25px;
 }
 
+article {
+	margin-top: 40px;
+}
+
 footer {
 	font-style: italic;
 	font-variant: small-caps;
