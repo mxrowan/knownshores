@@ -7,12 +7,14 @@ body {
 	padding: 10px;
 }
 
-main {
-	margin: 0 auto;
+header {
+	text-align: center;
+	margin-left: 80px;
+	margin-right: 80px;
 }
 
-section {
-	margin-left: 25px;
+main {
+	margin: 0 auto;
 }
 
 .row {
