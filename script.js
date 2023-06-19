@@ -23,11 +23,9 @@ function parseName() {
 	
 	let results = document.getElementById("results");
 //treat none checked as all checked
-	if(!stage.includes('child')) {
-		if(gender.length === 0) gender = ['mountain', 'forest', 'sky'];
-		if(vibe.length === 0) vibe = ['femme', 'masc', 'fluid'];
-		if(stage.length === 0) stage = ['adult', 'parent'];
-	}
+	if(gender.length === 0) gender = ['mountain', 'forest', 'sky'];
+	if(vibe.length === 0) vibe = ['femme', 'masc', 'fluid'];
+	if(stage.length === 0) stage = ['adult', 'parent', 'child'];
 	
 	console.log(gender+'; '+vibe+'; '+stage);
 	
