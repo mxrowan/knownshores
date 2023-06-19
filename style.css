@@ -1,15 +1,47 @@
+*{
+	box-sizing: border-box;
+}
+
 body {
-  background-color: lightblue;
+	background-color: lightblue;
+	padding: 10px;
+}
+
+main {
+	width: 500px;
+	margin: 0 auto;
+}
+
+section {
+	margin-left: 25px;
 }
 
 .column {
-  float: left;
-  width: 150px;
+	display: inline-block;
+	width: 150px;
+	border: 2px solid black;
+	padding: 5px;
+	margin-bottom: 10px;
+	background-color: white;
+}
+
+.column h3{
+	text-align: center;
 }
 
 .generate {
-  width: 400px;
-  text-align: center;
+	width: 450px;
+	text-align: center;
+	padding: 5px;
+}
+
+.output {
+	width: 350px;
+	position: relative;
+	left: 45px;
+	background-color: lightgrey;
+	border: 2px solid black;
+	margin-top: 25px;
 }
 
 footer {

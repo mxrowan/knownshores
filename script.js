@@ -36,7 +36,19 @@ function parseName() {
 	for(var i = 0; i < 5; i++) {
 		//name = [firstname, suffix, explanation]
 		var name = getName(getRandom(gender), getRandom(vibe), getRandom(stage));
-		results.innerHTML += name[0]+' '+getRandom(this['F1'])+name[1]+' '+name[2]+'<br>';
+		var color = 'purple';
+		switch(name[2].replace(/[,\s].*/, '')) {
+			case '(sky':
+				color = 'darkblue';
+				break;
+			case '(mountain':
+				color = 'brown';
+				break;
+			case '(forest':
+				color = 'darkgreen';
+				break;
+		}
+		results.innerHTML += name[0]+' '+getRandom(this['F1'])+name[1]+' <span style="color:'+color+';font-size:90%;font-style:italic">'+name[2]+'</span><br>';
 	}
 	
 } //end function
