@@ -16,14 +16,12 @@ section {
 }
 
 .row {
-	width: 500;
+	width: 500px;
 	display: flex;
 	justify-content: space-around;
 
 .column {
-	flex-grow: 1;
-	min-width: 100px;
-	max-width: 200px;
+	width: 150px;
 	border: 2px solid black;
 	padding: 0 0 15px 15px;
 	margin-bottom: 10px;
