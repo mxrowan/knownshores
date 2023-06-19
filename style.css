@@ -7,21 +7,27 @@ body {
 	padding: 10px;
 }
 
+header {
+	text-align: center;
+	margin-left: 80px;
+	margin-right: 80px;
+}
+
 main {
-	width: 500px;
 	margin: 0 auto;
 }
 
-section {
-	margin-left: 25px;
+.row {
+	display: flex;
+	justify-content: center;
 }
 
 .column {
 	display: inline-block;
 	width: 150px;
 	border: 2px solid black;
-	padding: 5px;
-	margin-bottom: 10px;
+	padding: 0 0 15px 15px;
+	margin: 10px;
 	background-color: white;
 }
 
