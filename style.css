@@ -16,7 +16,7 @@ section {
 }
 
 .row {
-	width: 500px;
+	width: 500;
 	display: flex;
 	justify-content: space-around;
 
